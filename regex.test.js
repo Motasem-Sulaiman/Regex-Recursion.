@@ -37,19 +37,19 @@ required extention are jpg, jpeg and png.
 function imagesSearcher(text){
 
 
-  let regex = /\b([a-zA-Z0-9_-]+\.(jpg|jpeg|png))\b/g;
-  let regex2 = text.match(regex);
-  let regex3=regex.test(text)
-  if(regex3===true){
-  return regex2 }
-  else{return []}
-
+    let regex = /\b([a-zA-Z0-9_-]+\.(jpg|jpeg|png))\b/g;
+    let regex2 = text.match(regex);
+    let regex3=regex.test(text)
+    if(regex3===true){
+    return regex2 }
+    else{return []}
   
-
-
-
-}
-
+    
+  
+  
+  
+  }
+  
 
 describe("Test capitalA", ()=>{
     test("It should return true if the input has uppercase and lowercase characters (no numbers and symbols) and it should end with capital A else return false ", () => {
