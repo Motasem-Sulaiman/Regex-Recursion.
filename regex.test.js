@@ -32,7 +32,7 @@ required extention are jpg, jpeg and png.
 */
 
 
-
+///////////////////////////
 
 function imagesSearcher(text){
 
@@ -43,6 +43,8 @@ function imagesSearcher(text){
   if(regex3===true){
   return regex2 }
   else{return []}
+
+  
 
 
 
